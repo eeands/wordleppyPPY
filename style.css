@@ -1,0 +1,76 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url(https://thumbs.dreamstime.com/z/fondo-del-crucigrama-52131872.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+   
+h1 {
+  text-align: center;
+  height: 100px;
+  text-shadow: #ccc;
+  text-size-adjust: 50px;
+  color: black;
+  margin-top: 100px;
+
+}
+   
+#guess-input {
+  display: block;
+  margin: 0 auto 20px;
+  padding: 10px;
+  font-size: 18px;
+  width: 250px;
+  border: 1px solid #ccc;
+}
+   
+#guess-button {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: maroon;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+}
+
+#conten{
+  background-color: aqua;
+  border-radius: 2px;
+  margin-top: 200px ;
+  margin-bottom: 150px;
+  margin-left: 25%;
+  margin-right: 55%;
+  height: 550px;
+  width: 50%;
+  top: 30px;
+
+}
+button:active {
+    transform: scale(0.95);
+}
+   
+.letter {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 3px;
+    min-width: 20px;
+    text-align: center;
+    display: inline-block
+    mar
+  
+}
+   
+.row{
+    margin-bottom: 10px;
+}
+   
+.input-area{
+    margin: 40px;
+}
+#grid{
+  text-align: center;
+  margin-top: 30px;
+}
